@@ -111,6 +111,6 @@ guillaume@ubuntu:~/py/0x00$ wc -l 6-concat.py
 guillaume@ubuntu:~/py/0x00$
 ```
 
-> pycodestyle 6-concat.py; chmod +x 6-concat.py; ./6-concat.py
+> pycodestyle 6-concat.py; wc -l 6-concat.py; chmod +x 6-concat.py; ./6-concat.py
 
 
