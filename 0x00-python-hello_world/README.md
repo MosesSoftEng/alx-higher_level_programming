@@ -1,7 +1,7 @@
 # :book: 0x00. Python - Hello, World
 
 # :computer: Tasks
-## [0x00-python-hello_world](0x00-python-hello_world)
+## [0-run](0-run)
 Write a Shell script that runs a Python script.
 The Python file name will be saved in the environment variable $PYFILE
 
@@ -16,6 +16,17 @@ Best School
 guillaume@ubuntu:~/py/0x00$
 ```
 
-> wc -l 0-run; export PYFILE=main.py; betty 0-run; pycodestyle main.py; chmod u+x 0-run; ./0-run
+> wc -l 0-run; export PYFILE=main.py; betty 0-run; pycodestyle main.py; chmod +x 0-run; ./0-run
 
-## 
+## [1-run_inline](1-run_inline)
+Write a Shell script that runs Python code.
+The Python code will be saved in the environment variable $PYCODE
+
+```
+guillaume@ubuntu:~/py/0x00$ export PYCODE='print(f"Best School: {88+10}")'
+guillaume@ubuntu:~/py/0x00$ ./1-run_inline 
+Best School: 98
+guillaume@ubuntu:~/py/0x00$ 
+```
+
+> wc -l 1-run_inline; export PYCODE='print(f"Best School: {88+10}")'; chmod +x 1-run_inline; ./1-run_inline
