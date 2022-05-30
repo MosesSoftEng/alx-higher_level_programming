@@ -16,6 +16,6 @@ Best School
 guillaume@ubuntu:~/py/0x00$
 ```
 
-> export PYFILE=main.py; betty 0-run; pycodestyle main.py; chmod u+x 0-run; ./0-run
+> wc -l 0-run; export PYFILE=main.py; betty 0-run; pycodestyle main.py; chmod u+x 0-run; ./0-run
 
 ## 
