@@ -52,6 +52,7 @@ Complete this source code in order to print the integer stored in the variable n
  - You are not allowed to cast the variable number into a string
  - Your code must be 3 lines long
  - You have to use f-strings tips
+ 
 ```
 guillaume@ubuntu:~/py/0x00$ ./3-print_number.py
 98 Battery street
