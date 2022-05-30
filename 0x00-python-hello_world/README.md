@@ -96,3 +96,21 @@ guillaume@ubuntu:~/py/0x00$
 
 > pycodestyle 5-print_string.py; chmod +x 5-print_string.py; ./5-print_string.py
 
+## [6-concat.py](6-concat.py)
+Complete this source code to print Welcome to Holberton School!
+ - You can find the source code here
+ - You are not allowed to use any loops or conditional statements.
+ - You have to use the variables str1 and str2 in your new line of code
+ - Your program should be exactly 5 lines long
+
+```
+guillaume@ubuntu:~/py/0x00$ ./6-concat.py
+Welcome to Holberton School!
+guillaume@ubuntu:~/py/0x00$ wc -l 6-concat.py
+5 6-concat.py
+guillaume@ubuntu:~/py/0x00$
+```
+
+> pycodestyle 6-concat.py; chmod +x 6-concat.py; ./6-concat.py
+
+
