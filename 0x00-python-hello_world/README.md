@@ -30,3 +30,16 @@ guillaume@ubuntu:~/py/0x00$
 ```
 
 > wc -l 1-run_inline; export PYCODE='print(f"Best School: {88+10}")'; chmod +x 1-run_inline; ./1-run_inline
+
+## [2-print.py](2-print.py)
+Write a Python script that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
+ - Use the function print
+
+```
+guillaume@ubuntu:~/py/0x00$ ./2-print.py 
+"Programming is like building a multilingual puzzle
+guillaume@ubuntu:~/py/0x00$
+```
+## 
+
+> pycodestyle 2-print.py; chmod +x 2-print.py; ./2-print.py
