@@ -113,7 +113,7 @@ guillaume@ubuntu:~/py/0x00$
 
 > pycodestyle 6-concat.py; wc -l 6-concat.py; chmod +x 6-concat.py; ./6-concat.py
 
-## []()
+## [7-edges.py](7-edges.py)
 Complete this source code
  - You can find the source code here
  - You are not allowed to use any loops or conditional statements
@@ -133,3 +133,22 @@ guillaume@ubuntu:~/py/0x00$
 ```
 
 > pycodestyle 7-edges.py; wc -l 7-edges.py; chmod +x 7-edges.py; ./7-edges.py
+
+## [8-concat_edges.py](8-concat_edges.py)
+Complete this source code to print object-oriented programming with Python, followed by a new line.
+ - You can find the source code here
+ - You are not allowed to use any loops or conditional statements
+ - Your program should be exactly 5 lines long
+ - You are not allowed to create new variables
+ - You are not allowed to use string literals
+
+```
+guillaume@ubuntu:~/py/0x00$ ./8-concat_edges.py
+object-oriented programming with Python
+guillaume@ubuntu:~/py/0x00$ wc -l 8-concat_edges.py
+5 8-concat_edges.py
+guillaume@ubuntu:~/py/0x00$
+```
+
+> pycodestyle 8-concat_edges.py; wc -l 8-concat_edges.py; chmod +x 8-concat_edges.py; ./8-concat_edges.py
+
