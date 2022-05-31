@@ -76,3 +76,20 @@ guillaume@ubuntu:~/0x01$
 ```
 
 > pycodestyle 1-last_digit.py; chmod +x 1-last_digit.py; ./1-last_digit.py
+
+## [2-print_alphabet.py](2-print_alphabet.py)
+Write a program that prints the ASCII alphabet, in lowercase, not followed by a new line.
+ - You can only use one print function with string format
+ - You can only use one loop in your code
+ - You are not allowed to store characters in a variable
+ - You are not allowed to import any module
+
+```
+guillaume@ubuntu:~/0x01$ ./2-print_alphabet.py
+abcdefghijklmnopqrstuvwxyzguillaume@ubuntu:~/0x01$
+```
+
+> pycodestyle 2-print_alphabet.py; chmod +x 2-print_alphabet.py; ./2-print_alphabet.py
+
+
+
