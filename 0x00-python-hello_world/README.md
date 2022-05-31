@@ -1,4 +1,10 @@
 # :book: 0x00. Python - Hello, World
+Concept covered
+Outputting to standard output using print function.
+Formatting strings output using f-strings
+Python list data structure
+Python bytecode
+
 
 # :computer: Tasks
 ## [0-run](0-run)
@@ -366,7 +372,7 @@ Linked list has a cycle
 carrie@ubuntu:~/0x00$
 ```
 
-> Solving a problem is already a big win! but finding the best and optimal way to solve it, it’s way better! Think about the most optimal / fastest way to do it.
+> Solving a problem is already a big win! but finding the best and optimal way to solve it, it’s way better! Think about the most optimal / fastest way to do it. Floyd's Tortoise and Hare Algorithm: Finding a Cycle in a Linked List
 
 >  gcc -Wall -Werror -Wextra -pedantic -std=gnu89 10-main.c 10-check_cycle.c 10-linked_lists.c -o cycle; ./cycle 
 
@@ -437,6 +443,11 @@ Write the Python function def magic_calculation(a, b): that does exactly the sam
 ```
 
 > 
+
+# References
+[Python 3's f-Strings: An Improved String Formatting Syntax (Guide)](https://realpython.com/python-f-strings/#f-strings-a-new-and-improved-way-to-format-strings-in-python)
+[Python f-string](https://zetcode.com/python/fstring/)
+[Disassembler for Python bytecode](https://docs.python.org/3.4/library/dis.html)
 
 
 
