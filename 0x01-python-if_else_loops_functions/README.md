@@ -538,6 +538,34 @@ zYxWvUtSrQpOnMlKjIhGfEdCbAguillaume@ubuntu:~/0x01$
 
 > pycodestyle ./100-print_tebahpla.py; chmod +x ./100-print_tebahpla.py; ././100-print_tebahpla.py
 
+Write a function that creates a copy of the string, removing the character at the position n (not the Python way, the “C array index”).
+ - Prototype: def remove_char_at(str, n):
+ - You are not allowed to import any module
+
+You don’t need to understand __import__
+
+```
+guillaume@ubuntu:~/0x01$ cat 101-main.py
+#!/usr/bin/env python3
+remove_char_at = __import__('101-remove_char_at').remove_char_at
+
+print(remove_char_at("Best School", 3))
+print(remove_char_at("Chicago", 2))
+print(remove_char_at("C is fun!", 0))
+print(remove_char_at("School", 10))
+print(remove_char_at("Python", -2))
+
+guillaume@ubuntu:~/0x01$ ./101-main.py
+Bes School
+Chcago
+ is fun!
+School
+Python
+guillaume@ubuntu:~/0x01$ 
+```
+
+> pycodestyle ./101-main.py; chmod +x ./101-main.py; ././101-main.py
+
 
 
 
