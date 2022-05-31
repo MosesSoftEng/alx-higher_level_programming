@@ -184,12 +184,12 @@ guillaume@ubuntu:~/0x01$
 
 ## [7-islower.py](7-islower.py)
 Write a function that checks for lowercase character.
- - Prototype: def islower(c):
+ - Prototype: `def islower(c)`:
  - Returns True if c is lowercase
  - Returns False otherwise
  - You are not allowed to import any module
  - You are not allowed to use str.upper() and str.isupper()
- - Tips: ord()
+ - Tips: `ord()`
 
 ```
 You don’t need to understand __import__
@@ -213,6 +213,33 @@ g is lower
 guillaume@ubuntu:~/0x01$
 ```
 > pycodestyle 7-main.py; chmod +x 7-main.py; ./7-main.py
+
+Write a function that prints a string in uppercase followed by a new line.
+ - Prototype: def uppercase(str):
+ - You can only use no more than 2 print functions with string format
+ - You can only use one loop in your code
+ - You are not allowed to import any module
+ - You are not allowed to use str.upper() and str.isupper()
+ - Tips: ord()
+
+You don’t need to understand __import__
+
+```
+guillaume@ubuntu:~/0x01$ cat 8-main.py
+#!/usr/bin/env python3
+uppercase = __import__('8-uppercase').uppercase
+
+uppercase("best")
+uppercase("Best School 98 Battery street")
+
+guillaume@ubuntu:~/0x01$ ./8-main.py
+BEST
+BEST SCHOOL 98 BATTERY STREET
+guillaume@ubuntu:~/0x01$
+```
+
+> pycodestyle 8-main.py; chmod +x 8-main.py; ./8-main.py
+
 
 
 
