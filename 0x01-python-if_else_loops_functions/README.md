@@ -595,7 +595,7 @@ Write the Python function def magic_calculation(a, b, c): that does exactly the 
 ```
 tips - ByteCode
 
-> pycodestyle ./101-main.py; chmod +x ./101-main.py; ././101-main.py
+> pycodestyle 101-main.py; chmod +x ./101-main.py; ././101-main.py
 
 
 
