@@ -295,3 +295,16 @@ guillaume@ubuntu:~/0x02$
 ```
 
 > pycodestyle 100-my_calculator.py; chmod +x 100-my_calculator.py; ./100-my_calculator.py; echo $?
+
+## [101-easy_print.py](101-easy_print.py)
+Write a program that prints #pythoniscool, followed by a new line, in the standard output.
+ - Your program should be maximum 2 lines long
+ - You are not allowed to use print or eval or open or import sys in your file 101-easy_print.py
+```
+guillaume@ubuntu:~/0x02$ ./101-easy_print.py
+#pythoniscool
+guillaume@ubuntu:~/0x02$ 
+```
+
+> pycodestyle 101-easy_print.py; chmod +x 101-easy_print.py; ./101-easy_print.py;
+
