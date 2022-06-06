@@ -146,6 +146,40 @@ guillaume@ubuntu:~/0x03$
 
 > pycodestyle 5-no_c.py; chmod +x 5-main.py; ./5-main.py
 
+## [6-print_matrix_integer.py](6-print_matrix_integer.py)
+Write a function that prints a matrix of integers.
+ - Prototype: def print_matrix_integer(matrix=[[]]):
+ - Format: see example
+ - You are not allowed to import any module
+ - You can assume that the list only contains integers
+ - You are not allowed to cast integers into strings
+ - You have to use str.format() to print integers
+
+```
+guillaume@ubuntu:~/0x03$ cat 6-main.py
+#!/usr/bin/python3
+print_matrix_integer = __import__('6-print_matrix_integer').print_matrix_integer
+
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+print_matrix_integer(matrix)
+print("--")
+print_matrix_integer()
+
+guillaume@ubuntu:~/0x03$ ./6-main.py | cat -e
+1 2 3$
+4 5 6$
+7 8 9$
+--$
+$
+guillaume@ubuntu:~/0x03$ 
+```
+> pycodestyle 6-print_matrix_integer.py; chmod +x 6-main.py; ./6-main.py
+
 ## References
  1. [https://docs.python.org/3/tutorial/introduction.html#strings](An Informal Introduction to Python)
  2. [https://docs.python.org/3/tutorial/modules.html](Modules)
