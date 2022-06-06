@@ -385,3 +385,4 @@ guillaume@ubuntu:~/0x02$
  1. [https://docs.python.org/3/tutorial/introduction.html#strings](An Informal Introduction to Python)
  2. [https://docs.python.org/3/tutorial/modules.html](Modules)
  3. [https://docs.python.org/3/tutorial/stdlib.html#command-line-arguments](Command Line Arguments)
+ 3. [https://docs.python.org/3/reference/import.html](The import system)
