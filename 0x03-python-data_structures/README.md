@@ -64,6 +64,32 @@ Write a function that replaces an element of a list at a specific position (like
 
 > pycodestyle 2-replace_in_list.py; chmod +x 2-main.py; ./2-main.py
 
+## [3-print_reversed_list_integer.py](3-print_reversed_list_integer.py)
+Write a function that prints all integers of a list, in reverse order.
+ - Prototype: def print_reversed_list_integer(my_list=[]):
+ - Format: one integer per line. See example
+ - You are not allowed to import any module
+ - You can assume that the list only contains integers
+ - You are not allowed to cast integers into strings
+ - You have to use str.format() to print integers
+
+```
+guillaume@ubuntu:~/0x03$ cat 3-main.py
+#!/usr/bin/python3
+print_reversed_list_integer = __import__('3-print_reversed_list_integer').print_reversed_list_integer
+
+my_list = [1, 2, 3, 4, 5]
+print_reversed_list_integer(my_list)
+
+guillaume@ubuntu:~/0x03$ ./3-main.py
+5
+4
+3
+2
+1
+guillaume@ubuntu:~/0x03$
+```
+> pycodestyle 3-print_reversed_list_integer.py; chmod +x 3-main.py; ./3-main.py
 
 ## References
  1. [https://docs.python.org/3/tutorial/introduction.html#strings](An Informal Introduction to Python)
