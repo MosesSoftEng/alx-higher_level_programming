@@ -41,6 +41,9 @@
 ## [100-weight_average.py](100-weight_average.py)
 > pycodestyle 100-weight_average.py; chmod +x 100-weight_average.py;
 
+## [101-square_matrix_map.py](101-square_matrix_map.py)
+> pycodestyle 101-square_matrix_map.py; chmod +x 101-square_matrix_map.py;
+
 
 
 
