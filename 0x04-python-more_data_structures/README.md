@@ -16,3 +16,7 @@
 
 ## [5-number_keys.py](5-number_keys.py)
 > pycodestyle 5-number_keys.py; chmod +x 5-number_keys.py;
+
+## [6-print_sorted_dictionary.py](6-print_sorted_dictionary.py)
+> pycodestyle 6-print_sorted_dictionary.py; chmod +x 6-print_sorted_dictionary.py;
+
