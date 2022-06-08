@@ -20,3 +20,7 @@
 ## [6-print_sorted_dictionary.py](6-print_sorted_dictionary.py)
 > pycodestyle 6-print_sorted_dictionary.py; chmod +x 6-print_sorted_dictionary.py;
 
+## [7-update_dictionary.py](7-update_dictionary.py)
+> pycodestyle 7-update_dictionary.py; chmod +x 7-update_dictionary.py;
+
+
