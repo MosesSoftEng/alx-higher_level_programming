@@ -23,4 +23,8 @@
 ## [7-update_dictionary.py](7-update_dictionary.py)
 > pycodestyle 7-update_dictionary.py; chmod +x 7-update_dictionary.py;
 
+## [8-simple_delete.py](8-simple_delete.py)
+> pycodestyle 8-simple_delete.py; chmod +x 8-simple_delete.py;
+
+
 
