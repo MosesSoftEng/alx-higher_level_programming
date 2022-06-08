@@ -44,6 +44,9 @@
 ## [101-square_matrix_map.py](101-square_matrix_map.py)
 > pycodestyle 101-square_matrix_map.py; chmod +x 101-square_matrix_map.py;
 
+## [102-complex_delete.py](102-complex_delete.py)
+> pycodestyle 102-complex_delete.py; chmod +x 102-complex_delete.py;
+
 
 
 
