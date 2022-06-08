@@ -38,6 +38,10 @@
 ## [12-roman_to_int.py](12-roman_to_int.py)
 > pycodestyle 12-roman_to_int.py; chmod +x 12-roman_to_int.py;
 
+## [100-weight_average.py](100-weight_average.py)
+> pycodestyle 100-weight_average.py; chmod +x 100-weight_average.py;
+
+
 
 
 
