@@ -26,5 +26,9 @@
 ## [8-simple_delete.py](8-simple_delete.py)
 > pycodestyle 8-simple_delete.py; chmod +x 8-simple_delete.py;
 
+## [9-multiply_by_2.py](9-multiply_by_2.py)
+> pycodestyle 9-multiply_by_2.py; chmod +x 9-multiply_by_2.py;
+
+
 
 
