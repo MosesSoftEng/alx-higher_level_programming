@@ -32,6 +32,10 @@
 ## [10-best_score.py](10-best_score.py)
 > pycodestyle 10-best_score.py; chmod +x 10-best_score.py;
 
+## [11-multiply_list_map.py](11-multiply_list_map.py)
+> pycodestyle 11-multiply_list_map.py; chmod +x 11-multiply_list_map.py;
+
+
 
 
 
