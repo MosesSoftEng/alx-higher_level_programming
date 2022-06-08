@@ -10,23 +10,9 @@
 ## [3-common_elements.py](3-common_elements.py)
 > pycodestyle 3-common_elements.py; chmod +x 3-common_elements.py;
 
-## [2-uniq_add.py](2-uniq_add.py)
-> pycodestyle 2-uniq_add.py; chmod +x 2-uniq_add.py;
+## [4-only_diff_elements.py](4-only_diff_elements.py)
+> pycodestyle 4-only_diff_elements.py; chmod +x 4-only_diff_elements.py;
 
-## [2-uniq_add.py](2-uniq_add.py)
-> pycodestyle 2-uniq_add.py; chmod +x 2-uniq_add.py;
 
-## [2-uniq_add.py](2-uniq_add.py)
-> pycodestyle 2-uniq_add.py; chmod +x 2-uniq_add.py;
-
-## [2-uniq_add.py](2-uniq_add.py)
-> pycodestyle 2-uniq_add.py; chmod +x 2-uniq_add.py;
-
-## [2-uniq_add.py](2-uniq_add.py)
-> pycodestyle 2-uniq_add.py; chmod +x 2-uniq_add.py;
-
-## [2-uniq_add.py](2-uniq_add.py)
-> pycodestyle 2-uniq_add.py; chmod +x 2-uniq_add.py;
-
-## [2-uniq_add.py](2-uniq_add.py)
-> pycodestyle 2-uniq_add.py; chmod +x 2-uniq_add.py;
+## [5-number_keys.py](5-number_keys.py)
+> pycodestyle 5-number_keys.py; chmod +x 5-number_keys.py;
