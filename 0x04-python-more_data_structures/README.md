@@ -1,8 +1,14 @@
+# 0x04. Python - More Data Structures: Set, Dictionary
+
+## List Comprehession
+A concise way to create lists where each element is the result of some operations applied to each member of another sequence or iterable, or to create a subsequence of those elements that satisfy a certain condition.
+
+List comprehension syntax
+newlist = [expression for item in iterable if condition == True]
 
 
 ## [0-square_matrix_simple.py](0-square_matrix_simple.py)
-
-> pycodestyle 0-square_matrix_simple.py; chmod +x 0-square_matrix_simple.py;
+> pycodestyle 0-square_matrix_simple.py; chmod +x 0-square_matrix_simple.py 0-main.py ; ./0-main.py
 
 ## [1-search_replace.py](1-search_replace.py)
 > pycodestyle 1-search_replace.py; chmod +x 1-search_replace.py;
