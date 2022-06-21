@@ -25,4 +25,12 @@ pycodestyle 4-main.py; chmod +x 4-main.py; ./4-main.py
 pycodestyle 5-raise_exception.py; chmod +x 5-raise_exception.py; ./5-raise_exception.py
 pycodestyle 5-main.py; chmod +x 5-main.py; ./5-main.py
 
+## 6-raise_exception_msg.py
+pycodestyle 6-raise_exception_msg.py; chmod +x 6-raise_exception_msg.py; ./6-raise_exception_msg.py
+pycodestyle 6-main.py; chmod +x 6-main.py; ./6-main.py
+
+## 100-safe_print_integer_err.py
+pycodestyle 100-safe_print_integer_err.py; chmod +x 100-safe_print_integer_err.py; ./100-safe_print_integer_err.py
+pycodestyle 100-main.py; chmod +x 100-main.py; ./100-main.py
+
 ## 
