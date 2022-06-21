@@ -33,4 +33,6 @@ pycodestyle 6-main.py; chmod +x 6-main.py; ./6-main.py
 pycodestyle 100-safe_print_integer_err.py; chmod +x 100-safe_print_integer_err.py; ./100-safe_print_integer_err.py
 pycodestyle 100-main.py; chmod +x 100-main.py; ./100-main.py
 
-## 
+## 101-safe_function.py
+pycodestyle 101-safe_function.py; chmod +x 101-safe_function.py; ./101-safe_function.py
+pycodestyle 101-main.py; chmod +x 101-main.py; ./101-main.py
