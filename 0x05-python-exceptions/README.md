@@ -20,3 +20,9 @@ pycodestyle 3-main.py; chmod +x 3-main.py; ./3-main.py
 ## 4-list_division.py
 pycodestyle 4-list_division.py; chmod +x 4-list_division.py; ./4-list_division.py
 pycodestyle 4-main.py; chmod +x 4-main.py; ./4-main.py
+
+## 5-raise_exception.py
+pycodestyle 5-raise_exception.py; chmod +x 5-raise_exception.py; ./5-raise_exception.py
+pycodestyle 5-main.py; chmod +x 5-main.py; ./5-main.py
+
+## 
