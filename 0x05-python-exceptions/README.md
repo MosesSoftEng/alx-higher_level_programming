@@ -36,3 +36,5 @@ pycodestyle 100-main.py; chmod +x 100-main.py; ./100-main.py
 ## 101-safe_function.py
 pycodestyle 101-safe_function.py; chmod +x 101-safe_function.py; ./101-safe_function.py
 pycodestyle 101-main.py; chmod +x 101-main.py; ./101-main.py
+
+## 102-magic_calculation.py
