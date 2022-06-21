@@ -23,3 +23,9 @@ pycodestyle 6-main.py; chmod +x 6-main.py; ./6-main.py
 
 ## 100-singly_linked_list.py
 
+
+## 101-square.py
+pycodestyle 101-square.py; chmod +x 101-square.py; ./101-square.py
+pycodestyle 101-main.py; chmod +x 101-main.py; ./101-main.py
+
+
