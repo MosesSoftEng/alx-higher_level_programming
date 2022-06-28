@@ -18,3 +18,6 @@ pycodestyle 7-rectangle.py; chmod +x 7-rectangle.py; ./7-rectangle.py
 
 ## 8-rectangle.py
 pycodestyle 8-rectangle.py; chmod +x 8-rectangle.py; ./8-rectangle.py
+
+## 9-rectangle.py
+pycodestyle 9-rectangle.py; chmod +x 9-rectangle.py; ./9-rectangle.py
