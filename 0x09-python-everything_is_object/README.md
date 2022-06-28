@@ -5,3 +5,6 @@
 ##
 ## 2-answer.txt
 ## 
+
+## 19-copy_list.py
+pycodestyle 19-copy_list.py; chmod +x 19-copy_list.py; ./19-copy_list.py
