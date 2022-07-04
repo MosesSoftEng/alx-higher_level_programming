@@ -40,3 +40,7 @@ pycodestyle 11-square.py; chmod +x 11-main.py; ./11-main.py
 
 ## 100-my_int.py
 pycodestyle 100-my_int.py; chmod +x 100-main.py; chmod +x 100-my_int.py; ./100-main.py
+
+## 101-add_attribute.
+pycodestyle 101-add_attribute.py; chmod +x 101-main.py; chmod +x 101-add_attribute.py; ./101-main.py
+
