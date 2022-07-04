@@ -34,3 +34,6 @@ pycodestyle 9-rectangle.py; chmod +x 9-main.py; ./9-main.py
 
 ## 10-square.py
 pycodestyle 10-square.py; chmod +x 10-main.py; ./10-main.py
+
+## 11-square.py
+pycodestyle 11-square.py; chmod +x 11-main.py; ./11-main.py
