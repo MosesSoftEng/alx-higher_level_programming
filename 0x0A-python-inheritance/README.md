@@ -37,3 +37,6 @@ pycodestyle 10-square.py; chmod +x 10-main.py; ./10-main.py
 
 ## 11-square.py
 pycodestyle 11-square.py; chmod +x 11-main.py; ./11-main.py
+
+## 100-my_int.py
+pycodestyle 100-my_int.py; chmod +x 100-main.py; chmod +x 100-my_int.py; ./100-main.py
