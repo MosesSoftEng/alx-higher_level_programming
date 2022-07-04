@@ -25,3 +25,6 @@ pycodestyle 6-base_geometry.py; chmod +x 6-main.py; ./6-main.py
 
 ## 7-base_geometry.py, tests/7-base_geometry.txt
 pycodestyle 7-base_geometry.py; chmod +x 7-main.py; ./7-main.py
+
+## 8-rectangle.py
+pycodestyle 8-rectangle.py; chmod +x 8-main.py; ./8-main.py
