@@ -20,4 +20,5 @@ pycodestyle 4-inherits_from.py; chmod +x 4-main.py; ./4-main.py
 ## 5-base_geometry.py
 pycodestyle 5-base_geometry.py; chmod +x 5-main.py; ./5-main.py
 
-## 
+## 6-base_geometry.py
+pycodestyle 6-base_geometry.py; chmod +x 6-main.py; ./6-main.py
