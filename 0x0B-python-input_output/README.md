@@ -42,3 +42,6 @@ pycodestyle 12-pascal_triangle.py; chmod +x 12-pascal_triangle.py; chmod +x 12-m
 
 ## 100-append_after.py
 pycodestyle 100-append_after.py; chmod +x 100-append_after.py; chmod +x 100-main.py ; ./100-main.py
+
+## 101-stats.py
+pycodestyle 101-stats.py; chmod +x 101-stats.py; chmod +x 101-generator.py ; ./101-generator.py
