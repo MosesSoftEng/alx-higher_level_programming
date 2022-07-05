@@ -35,3 +35,7 @@ pycodestyle 9-student.py; chmod +x 9-student.py; chmod +x 9-main.py ; ./9-main.p
 pycodestyle 10-student.py; chmod +x 10-student.py; chmod +x 10-main.py; ./10-main.py
 
 ## 11-student.py
+pycodestyle 11-student.py; chmod +x 11-student.py; chmod +x 11-main.py ; ./11-main.py student.json
+
+## 12-pascal_triangle.py
+pycodestyle 12-pascal_triangle.py; chmod +x 12-pascal_triangle.py; chmod +x 12-main.py ; ./12-main.py
