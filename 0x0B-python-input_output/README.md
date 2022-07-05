@@ -39,3 +39,6 @@ pycodestyle 11-student.py; chmod +x 11-student.py; chmod +x 11-main.py ; ./11-ma
 
 ## 12-pascal_triangle.py
 pycodestyle 12-pascal_triangle.py; chmod +x 12-pascal_triangle.py; chmod +x 12-main.py ; ./12-main.py
+
+## 100-append_after.py
+pycodestyle 100-append_after.py; chmod +x 100-append_after.py; chmod +x 100-main.py ; ./100-main.py
