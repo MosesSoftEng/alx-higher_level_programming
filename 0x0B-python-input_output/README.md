@@ -29,4 +29,7 @@ pycodestyle 7-add_item.py; chmod +x 7-add_item.py; chmod +x 7-add_item.py; ./7-a
 pycodestyle 8-class_to_json.py; chmod +x 8-class_to_json.py; chmod +x 8-main.py ; ./8-main.py
 
 ## 9-student.py
-pycodestyle 9-student.py; chmod +x 9-student.py; chmod +x 9-main.py ; ./9-main.py 
+pycodestyle 9-student.py; chmod +x 9-student.py; chmod +x 9-main.py ; ./9-main.py
+
+## 10-student.py
+pycodestyle 10-student.py; chmod +x 10-student.py; chmod +x 10-main.py; ./10-main.py
