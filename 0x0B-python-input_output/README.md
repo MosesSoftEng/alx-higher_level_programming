@@ -18,3 +18,6 @@ pycodestyle 4-from_json_string.py; chmod +x 4-from_json_string.py; chmod +x 4-ma
 
 ## 5-save_to_json_file.py
 pycodestyle 5-save_to_json_file.py; chmod +x 5-save_to_json_file.py; chmod +x 5-main.py; ./5-main.py
+
+## 6-load_from_json_file.py
+pycodestyle 6-load_from_json_file.py; chmod +x 6-load_from_json_file.py; chmod +x 6-main.py; ./6-main.py
