@@ -21,3 +21,6 @@ pycodestyle 5-save_to_json_file.py; chmod +x 5-save_to_json_file.py; chmod +x 5-
 
 ## 6-load_from_json_file.py
 pycodestyle 6-load_from_json_file.py; chmod +x 6-load_from_json_file.py; chmod +x 6-main.py; ./6-main.py
+
+## 7-add_item.py
+pycodestyle 7-add_item.py; chmod +x 7-add_item.py; chmod +x 7-add_item.py; ./7-add_item.py
