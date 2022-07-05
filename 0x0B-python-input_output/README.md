@@ -24,3 +24,6 @@ pycodestyle 6-load_from_json_file.py; chmod +x 6-load_from_json_file.py; chmod +
 
 ## 7-add_item.py
 pycodestyle 7-add_item.py; chmod +x 7-add_item.py; chmod +x 7-add_item.py; ./7-add_item.py
+
+## 8-class_to_json.py
+pycodestyle 8-class_to_json.py; chmod +x 8-class_to_json.py; chmod +x 8-main.py ; ./8-main.py
