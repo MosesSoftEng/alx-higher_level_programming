@@ -12,3 +12,6 @@ pycodestyle 2-append_write.py; chmod +x 2-append_write.py; chmod +x 2-main.py; .
 
 ## 3-to_json_string.py
 pycodestyle 3-to_json_string.py; chmod +x 3-to_json_string.py; chmod +x 3-main.py; ./3-main.py
+
+## 4-from_json_string.py
+pycodestyle 4-from_json_string.py; chmod +x 4-from_json_string.py; chmod +x 4-main.py; ./4-main.py
