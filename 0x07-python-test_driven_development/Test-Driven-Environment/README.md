@@ -9,4 +9,10 @@ chmod +x doctest_simple.py;
 ## Run file
 ./doctest_simple.py
 
+or 
+
+python3 doctest_simple.py
+
 pycodestyle doctest_simple.py; chmod +x doctest_simple.py; ./doctest_simple.py
+
+## Run tests
