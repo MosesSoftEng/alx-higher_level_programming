@@ -15,4 +15,5 @@ python3 doctest_simple.py
 
 pycodestyle doctest_simple.py; chmod +x doctest_simple.py; ./doctest_simple.py
 
-## Run tests
+## Run internal tests
+python3 -m doctest -v doctest_simple.py
