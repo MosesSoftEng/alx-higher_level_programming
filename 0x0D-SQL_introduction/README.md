@@ -86,3 +86,7 @@ chmod +x 100-move_to_utf8.sql;
 sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_introduction/100-move_to_utf8.sql
 
 100-move_to_utf8.sql
+
+## 18. Temperatures #0
+chmod +x 101-avg_temperatures.sql; 
+sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_introduction/101-avg_temperatures.sql
