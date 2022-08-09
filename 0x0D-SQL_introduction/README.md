@@ -46,3 +46,7 @@ sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_
 ## 10-top_score.sql
 chmod +x 10-top_score.sql; 
 sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_introduction/10-top_score.sql
+
+## 11-best_score.sql
+chmod +x 11-best_score.sql; 
+sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_introduction/11-best_score.sql
