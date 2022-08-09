@@ -62,3 +62,11 @@ sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_
 ## 14. Average 
 chmod +x 14-average.sql; 
 sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_introduction/14-average.sql
+
+## 15. Number by score
+Script that lists the number of records with the same score in the table second_table of the database hbtn_0c_0 in your MySQL server.
+
+chmod +x 15-groups.sql; 
+sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_introduction/15-groups.sql
+
+15-groups.sql
