@@ -18,3 +18,12 @@ sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_
 ## 3-list_tables.sql
 chmod +x 3-list_tables.sql; 
 sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_introduction/3-list_tables.sql
+
+## 4. First table 
+chmod +x 4-first_table.sql; 
+sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_introduction/4-first_table.sql
+
+## 5. Full description
+chmod +x 5-full_table.sql; 
+sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_introduction/5-full_table.sql
+
