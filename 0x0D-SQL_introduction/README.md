@@ -10,3 +10,5 @@ sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_
 ## 1. Create a database
 chmod +x 1-create_database_if_missing.sql; 
 sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_introduction/1-create_database_if_missing.sql
+
+## 2. Delete a database 
