@@ -34,3 +34,7 @@ sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_
 ## 7. First add
 chmod +x 7-insert_value.sql; 
 sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_introduction/7-insert_value.sql
+
+## 8. Count 89
+chmod +x 8-count_89.sql; 
+sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_introduction/8-count_89.sql
