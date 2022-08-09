@@ -58,3 +58,7 @@ sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_
 ## 13. Score too low 
 chmod +x 13-change_class.sql; 
 sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_introduction/13-change_class.sql
+
+## 14. Average 
+chmod +x 14-average.sql; 
+sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_introduction/14-average.sql
