@@ -70,3 +70,11 @@ chmod +x 15-groups.sql;
 sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_introduction/15-groups.sql
 
 15-groups.sql
+
+## 16. Say my name 
+Script that lists all records of the table second_table of the database hbtn_0c_0 in your MySQL server.
+
+chmod +x 16-no_link.sql; 
+sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_introduction/16-no_link.sql
+
+16-no_link.sql
