@@ -96,3 +96,9 @@ chmod +x 102-top_city.sql;
 sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_introduction/102-top_city.sql
 
 102-top_city.sql
+
+## 20. Temperatures #2
+chmod +x 103-max_state.sql; 
+sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_introduction/103-max_state.sql
+
+103-max_state.sql
