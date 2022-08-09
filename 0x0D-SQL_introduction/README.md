@@ -38,3 +38,7 @@ sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_
 ## 8. Count 89
 chmod +x 8-count_89.sql; 
 sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_introduction/8-count_89.sql
+
+## 9. Full creation
+chmod +x 9-full_creation.sql; 
+sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_introduction/9-full_creation.sql
