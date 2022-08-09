@@ -50,3 +50,7 @@ sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_
 ## 11-best_score.sql
 chmod +x 11-best_score.sql; 
 sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_introduction/11-best_score.sql
+
+## 12. Cheating is bad
+chmod +x 12-no_cheating.sql; 
+sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_introduction/12-no_cheating.sql
