@@ -78,3 +78,11 @@ chmod +x 16-no_link.sql;
 sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_introduction/16-no_link.sql
 
 16-no_link.sql
+
+## 17. Go to UTF8
+Script that converts hbtn_0c_0 database to UTF8 (utf8mb4, collate utf8mb4_unicode_ci) in your MySQL server.
+
+chmod +x 100-move_to_utf8.sql; 
+sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_introduction/100-move_to_utf8.sql
+
+100-move_to_utf8.sql
