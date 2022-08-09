@@ -54,3 +54,7 @@ sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_
 ## 12. Cheating is bad
 chmod +x 12-no_cheating.sql; 
 sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_introduction/12-no_cheating.sql
+
+## 13. Score too low 
+chmod +x 13-change_class.sql; 
+sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_introduction/13-change_class.sql
