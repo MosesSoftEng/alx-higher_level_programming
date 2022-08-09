@@ -90,3 +90,9 @@ sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_
 ## 18. Temperatures #0
 chmod +x 101-avg_temperatures.sql; 
 sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_introduction/101-avg_temperatures.sql
+
+## 19. Temperatures #1
+chmod +x 102-top_city.sql; 
+sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_introduction/102-top_city.sql
+
+102-top_city.sql
