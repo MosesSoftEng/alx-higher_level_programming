@@ -42,3 +42,7 @@ sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_
 ## 9. Full creation
 chmod +x 9-full_creation.sql; 
 sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_introduction/9-full_creation.sql
+
+## 10-top_score.sql
+chmod +x 10-top_score.sql; 
+sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_introduction/10-top_score.sql
