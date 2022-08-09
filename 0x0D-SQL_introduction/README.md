@@ -30,3 +30,7 @@ sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_
 ## 6. List all in table
 chmod +x 6-list_values.sql; 
 sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_introduction/6-list_values.sql
+
+## 7. First add
+chmod +x 7-insert_value.sql; 
+sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_introduction/7-insert_value.sql
