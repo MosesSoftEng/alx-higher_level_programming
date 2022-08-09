@@ -27,3 +27,6 @@ sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_
 chmod +x 5-full_table.sql; 
 sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_introduction/5-full_table.sql
 
+## 6. List all in table
+chmod +x 6-list_values.sql; 
+sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0D-SQL_introduction/6-list_values.sql
