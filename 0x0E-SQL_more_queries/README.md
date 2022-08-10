@@ -47,3 +47,11 @@ sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0E-SQL_
 
 [5-unique_id.sql](5-unique_id.sql)
 
+## 6. States table
+Script that creates the database hbtn_0d_usa and the table states (in the database hbtn_0d_usa) on your MySQL server.
+
+chmod +x 6-states.sql; 
+sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0E-SQL_more_queries/6-states.sql
+
+[6-states.sql](6-states.sql)
+
