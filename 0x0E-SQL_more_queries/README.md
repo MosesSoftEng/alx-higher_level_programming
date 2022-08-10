@@ -31,3 +31,11 @@ chmod +x 3-force_name.sql;
 sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0E-SQL_more_queries/3-force_name.sql
 
 [3-force_name.sql](3-force_name.sql)
+
+## 4. ID can't be null 
+Script that creates the table id_not_null on your MySQL server.
+
+chmod +x 4-never_empty.sql; 
+sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0E-SQL_more_queries/4-never_empty.sql
+
+[4-never_empty.sql](4-never_empty.sql)
