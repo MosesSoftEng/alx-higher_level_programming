@@ -143,4 +143,10 @@ sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0E-SQL_
 
 [100-not_my_genres.sql](100-not_my_genres.sql)
 
-## 17. Not my genre 
+## 101-not_a_comedy.sql
+Script that lists all shows without the genre Comedy in the database hbtn_0d_tvshows.
+
+chmod +x 101-not_a_comedy.sql; 
+sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0E-SQL_more_queries/101-not_a_comedy.sql
+
+[101-not_a_comedy.sql](101-not_a_comedy.sql)
