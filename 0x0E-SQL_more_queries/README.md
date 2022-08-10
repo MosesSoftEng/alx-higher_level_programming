@@ -89,3 +89,10 @@ sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0E-SQL_
 [10-genre_id_by_show.sql](10-genre_id_by_show.sql)
 
 
+## 11. Genre ID for all shows
+Script that lists all shows contained in the database hbtn_0d_tvshows.
+
+chmod +x 11-genre_id_all_shows.sql; 
+sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0E-SQL_more_queries/11-genre_id_all_shows.sql
+
+[11-genre_id_all_shows.sql](11-genre_id_all_shows.sql)
