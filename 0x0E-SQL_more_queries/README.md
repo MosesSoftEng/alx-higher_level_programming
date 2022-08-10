@@ -134,3 +134,13 @@ chmod +x 16-shows_by_genre.sql;
 sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0E-SQL_more_queries/16-shows_by_genre.sql
 
 [16-shows_by_genre.sql](16-shows_by_genre.sql)
+
+## 100-not_my_genres.sql
+Script that uses the hbtn_0d_tvshows database to list all genres not linked to the show Dexter
+
+chmod +x 100-not_my_genres.sql; 
+sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0E-SQL_more_queries/100-not_my_genres.sql
+
+[100-not_my_genres.sql](100-not_my_genres.sql)
+
+## 17. Not my genre 
