@@ -110,3 +110,11 @@ chmod +x 13-count_shows_by_genre.sql;
 sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0E-SQL_more_queries/13-count_shows_by_genre.sql
 
 [13-count_shows_by_genre.sql](13-count_shows_by_genre.sql)
+
+## 14. My genres 
+Script that uses the hbtn_0d_tvshows database to lists all genres of the show Dexter.
+
+chmod +x 14-my_genres.sql; 
+sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0E-SQL_more_queries/14-my_genres.sql
+
+[14-my_genres.sql](14-my_genres.sql)
