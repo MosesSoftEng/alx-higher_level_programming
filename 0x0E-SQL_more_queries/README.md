@@ -88,7 +88,6 @@ sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0E-SQL_
 
 [10-genre_id_by_show.sql](10-genre_id_by_show.sql)
 
-
 ## 11. Genre ID for all shows
 Script that lists all shows contained in the database hbtn_0d_tvshows.
 
@@ -96,3 +95,11 @@ chmod +x 11-genre_id_all_shows.sql;
 sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0E-SQL_more_queries/11-genre_id_all_shows.sql
 
 [11-genre_id_all_shows.sql](11-genre_id_all_shows.sql)
+
+## 12. No genre 
+Script that lists all shows contained in hbtn_0d_tvshows without a genre linked. 
+
+chmod +x 12-no_genre.sql; 
+sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0E-SQL_more_queries/12-no_genre.sql
+
+[12-no_genre.sql](12-no_genre.sql)
