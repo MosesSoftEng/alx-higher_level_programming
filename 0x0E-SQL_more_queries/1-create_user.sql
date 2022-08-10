@@ -1,4 +1,5 @@
--- Script that creates the MySQL server user user_0d_1. 
+-- Script that creates the MySQL server user user_0d_1.
+--  *.*  all databses.tables
 
 -- Create user and set password
 CREATE USER
@@ -6,5 +7,5 @@ CREATE USER
 -- Give user all privellages
 GRANT ALL PRIVILEGES
     ON *.* TO 'user_0d_1'@'localhost';
--- For changes to take effect immediatelY
+-- For changes to take effect immediately
 FLUSH PRIVILEGES;

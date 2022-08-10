@@ -15,3 +15,11 @@ chmod +x 1-create_user.sql;
 sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0E-SQL_more_queries/1-create_user.sql
 
 [1-create_user.sql](1-create_user.sql)
+
+## 2. Read user 
+Script that creates the database hbtn_0d_2 and the user user_0d_2.
+
+chmod +x 2-create_read_user.sql; 
+sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0E-SQL_more_queries/2-create_read_user.sql
+
+[2-create_read_user.sql](2-create_read_user.sql)
