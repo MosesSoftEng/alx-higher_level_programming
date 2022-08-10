@@ -1,11 +1,8 @@
 -- Script that creates the MySQL server user user_0d_1.
---  *.*  all databses.tables
 
--- Create user and set password
-CREATE USER
-    IF NOT EXISTS 'user_0d_1'@'localhost' IDENTIFIED BY 'user_0d_1_pwd';
--- Give user all privellages
-GRANT ALL PRIVILEGES
-    ON *.* TO 'user_0d_1'@'localhost';
--- For changes to take effect immediately
-FLUSH PRIVILEGES;
+-- Create table
+CREATE TABLE IF NOT EXISTS `force_name` (
+  `id` INT, 
+  --NOT NULL, Constrain column value to be not NULL--
+  `name` VARCHAR(256) NOT NULL
+);

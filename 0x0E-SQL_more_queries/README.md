@@ -23,3 +23,11 @@ chmod +x 2-create_read_user.sql;
 sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0E-SQL_more_queries/2-create_read_user.sql
 
 [2-create_read_user.sql](2-create_read_user.sql)
+
+## 3. Always a name
+Script that creates the table force_name on your MySQL server.
+
+chmod +x 3-force_name.sql; 
+sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0E-SQL_more_queries/3-force_name.sql
+
+[3-force_name.sql](3-force_name.sql)
