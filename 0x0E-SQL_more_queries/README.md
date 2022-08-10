@@ -150,3 +150,10 @@ chmod +x 101-not_a_comedy.sql;
 sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0E-SQL_more_queries/101-not_a_comedy.sql
 
 [101-not_a_comedy.sql](101-not_a_comedy.sql)
+
+## 102-rating_shows.sql
+
+chmod +x 102-rating_shows.sql; 
+sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0E-SQL_more_queries/102-rating_shows.sql
+
+[102-rating_shows.sql](102-rating_shows.sql)
