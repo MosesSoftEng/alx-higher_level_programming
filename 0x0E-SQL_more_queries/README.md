@@ -72,3 +72,12 @@ sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0E-SQL_
 
 [8-cities_of_california_subquery.sql](8-cities_of_california_subquery.sql)
 
+## 9. Cities by States 
+Script that lists all cities contained in the database hbtn_0d_usa.
+
+chmod +x 9-cities_by_state_join.sql; 
+sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0E-SQL_more_queries/9-cities_by_state_join.sql
+
+[9-cities_by_state_join.sql](9-cities_by_state_join.sql)
+
+
