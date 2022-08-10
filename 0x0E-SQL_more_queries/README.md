@@ -55,3 +55,11 @@ sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0E-SQL_
 
 [6-states.sql](6-states.sql)
 
+## 7. Cities table
+Script that creates the database hbtn_0d_usa and the table cities (in the database hbtn_0d_usa) on your MySQL server.
+
+chmod +x 7-cities.sql; 
+sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0E-SQL_more_queries/7-cities.sql
+
+[7-cities.sql](7-cities.sql)
+
