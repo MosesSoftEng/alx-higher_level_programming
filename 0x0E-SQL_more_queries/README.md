@@ -39,3 +39,11 @@ chmod +x 4-never_empty.sql;
 sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0E-SQL_more_queries/4-never_empty.sql
 
 [4-never_empty.sql](4-never_empty.sql)
+
+## 5. Unique ID 
+
+chmod +x 5-unique_id.sql; 
+sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0E-SQL_more_queries/5-unique_id.sql
+
+[5-unique_id.sql](5-unique_id.sql)
+
