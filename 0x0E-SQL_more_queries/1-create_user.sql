@@ -1,8 +1,15 @@
--- Script that creates the MySQL server user user_0d_1.
+-- Sscript that creates the table force_name on your MySQL server.
 
--- Create table
-CREATE TABLE IF NOT EXISTS `force_name` (
-  `id` INT, 
-  --NOT NULL, Constrain column value to be not NULL--
-  `name` VARCHAR(256) NOT NULL
-);
+-- Create database
+CREATE DATABASE IF NOT EXISTS `hbtn_0d_2`;
+
+-- Create user and set password
+CREATE USER IF NOT EXISTS 'user_0d_2' @'localhost' IDENTIFIED BY 'user_0d_2_pwd';
+
+-- Give user_0d_2 SELECT privilege in the database hbtn_0d_2
+GRANT 
+SELECT 
+  ON `hbtn_0d_2`.* TO 'user_0d_2' @'localhost';
+
+-- For changes to take effect immediatelY
+FLUSH PRIVILEGES;
