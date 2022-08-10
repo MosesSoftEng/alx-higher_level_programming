@@ -3,6 +3,6 @@
 -- Create table
 CREATE TABLE IF NOT EXISTS `id_not_null` (
   -- DEFAULT, set default value to 1 --
-  `id` INT UNIQUE DEFAULT 1,
+  `id` INT DEFAULT 1 UNIQUE,
   `name` VARCHAR(256)
 );
