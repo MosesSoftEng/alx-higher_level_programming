@@ -80,4 +80,12 @@ sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0E-SQL_
 
 [9-cities_by_state_join.sql](9-cities_by_state_join.sql)
 
+## 10. Genre ID by show 
+Script that lists all shows contained in hbtn_0d_tvshows that have at least one genre linked.
+
+chmod +x 10-genre_id_by_show.sql; 
+sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0E-SQL_more_queries/10-genre_id_by_show.sql
+
+[10-genre_id_by_show.sql](10-genre_id_by_show.sql)
+
 
