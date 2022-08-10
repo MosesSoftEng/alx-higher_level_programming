@@ -126,3 +126,11 @@ chmod +x 15-comedy_only.sql;
 sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0E-SQL_more_queries/15-comedy_only.sql
 
 [15-comedy_only.sql](15-comedy_only.sql)
+
+## 16. List shows and genres 
+Script that lists all shows, and all genres linked to that show, from the database
+
+chmod +x 16-shows_by_genre.sql; 
+sudo mysql -u root < /home/moses_soft_eng/alx-higher_level_programming/0x0E-SQL_more_queries/16-shows_by_genre.sql
+
+[16-shows_by_genre.sql](16-shows_by_genre.sql)
