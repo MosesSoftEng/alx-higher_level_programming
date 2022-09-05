@@ -1,12 +1,11 @@
 #!/usr/bin/node
 
-switch (process.argv.length) {
-  case 2:
-    console.log('No argument');
-    break;
-  case 3:
-    console.log('Argument found');
-    break;
-  default:
-    console.log('Arguments found');
+const argvCount = process.argv.length;
+
+if (argvCount === 2) {
+  console.log('No argument');
+} else if (argvCount === 3) {
+  console.log('Argument found');
+} else {
+  console.log('Arguments found');
 }
