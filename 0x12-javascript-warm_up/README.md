@@ -61,6 +61,7 @@ Write a script that searches the second biggest integer in the list of arguments
 
 chmod +x 11-second_biggest.js; semistandard ./11-second_biggest.js; ./11-second_biggest.js
 
+## 12. Object 
+Update this script to replace the value 12 with 89:
 
-
-
+chmod +x 12-object.js; semistandard ./12-object.js; ./12-object.js
