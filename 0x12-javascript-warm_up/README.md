@@ -20,3 +20,8 @@ chmod +x 2-arguments.js; semistandard ./2-arguments.js; ./2-arguments.js
 Write a script that prints the first argument passed to it.
 
 chmod +x 3-value_argument.js; semistandard ./3-value_argument.js; ./3-value_argument.js
+
+## 4. Create a sentence
+Write a script that prints two arguments passed to it, in the following format: “ is ”
+
+chmod +x 4-concat.js; semistandard ./4-concat.js; ./4-concat.js
