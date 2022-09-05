@@ -1,9 +1,9 @@
 #!/usr/bin/node
 
-const strArr = [
-  'C is fun',
-  'Python is cool',
-  'JavaScript is amazing'
-];
+const num = Number(process.argv[2]);
 
-for (let i = 0; i < strArr.length; i++) console.log(strArr[i]);
+if (num) {
+  console.log('My number: ' + num);
+} else {
+  console.log('Not a number');
+}
