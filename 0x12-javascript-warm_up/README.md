@@ -65,3 +65,6 @@ chmod +x 11-second_biggest.js; semistandard ./11-second_biggest.js; ./11-second_
 Update this script to replace the value 12 with 89:
 
 chmod +x 12-object.js; semistandard ./12-object.js; ./12-object.js
+
+## 13. Add file
+Write a function that returns the addition of 2 integers.
