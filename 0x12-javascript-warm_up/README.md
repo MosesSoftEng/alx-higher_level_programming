@@ -31,3 +31,8 @@ Write a script that prints My number: <first argument converted in integer> if t
 
 chmod +x 5-to_integer.js; semistandard ./5-to_integer.js; ./5-to_integer.js
 
+## 6. Loop to languages
+Write a script that prints 3 lines: (like 1-multi_languages.js) but by using an array of string and a loop
+
+chmod +x 6-multi_languages_loop.js; semistandard ./6-multi_languages_loop.js; ./6-multi_languages_loop.js
+
