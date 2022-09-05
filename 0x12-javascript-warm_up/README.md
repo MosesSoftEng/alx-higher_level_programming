@@ -41,4 +41,11 @@ Write a script that prints x times “C is fun”
 
 chmod +x 7-multi_c.js; semistandard ./7-multi_c.js; ./7-multi_c.js
 
+## 8. Square
+Write a script that prints a square
+
+chmod +x 8-square.js; semistandard ./8-square.js; ./8-square.js
+
+
+
 
