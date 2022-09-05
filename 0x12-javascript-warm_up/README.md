@@ -56,7 +56,10 @@ Write a script that computes and prints a factorial
 
 chmod +x 10-factorial.js; semistandard ./10-factorial.js; ./10-factorial.js
 
-##
+## 11. Second biggest!
+Write a script that searches the second biggest integer in the list of arguments.
+
+chmod +x 11-second_biggest.js; semistandard ./11-second_biggest.js; ./11-second_biggest.js
 
 
 
