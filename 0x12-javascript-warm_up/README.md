@@ -46,6 +46,11 @@ Write a script that prints a square
 
 chmod +x 8-square.js; semistandard ./8-square.js; ./8-square.js
 
+## 9. Add
+Write a script that prints the addition of 2 integers.
+
+chmod +x 9-add.js; semistandard ./9-add.js; ./9-add.js
+
 
 
 
