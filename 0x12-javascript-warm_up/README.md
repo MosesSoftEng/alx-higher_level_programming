@@ -51,6 +51,13 @@ Write a script that prints the addition of 2 integers.
 
 chmod +x 9-add.js; semistandard ./9-add.js; ./9-add.js
 
+## 10. Factorial 
+Write a script that computes and prints a factorial
+
+chmod +x 10-factorial.js; semistandard ./10-factorial.js; ./10-factorial.js
+
+##
+
 
 
 
