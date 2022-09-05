@@ -25,3 +25,9 @@ chmod +x 3-value_argument.js; semistandard ./3-value_argument.js; ./3-value_argu
 Write a script that prints two arguments passed to it, in the following format: “ is ”
 
 chmod +x 4-concat.js; semistandard ./4-concat.js; ./4-concat.js
+
+## 5. An Integer
+Write a script that prints My number: <first argument converted in integer> if the first argument can be converted to an integer:
+
+chmod +x 5-to_integer.js; semistandard ./5-to_integer.js; ./5-to_integer.js
+
