@@ -15,3 +15,8 @@ chmod +x 1-multi_languages.js; semistandard ./1-multi_languages.js; ./1-multi_la
 Write a script that prints a message depending of the number of arguments passed.
 
 chmod +x 2-arguments.js; semistandard ./2-arguments.js; ./2-arguments.js
+
+## 3. Value of my argument.
+Write a script that prints the first argument passed to it.
+
+chmod +x 3-value_argument.js; semistandard ./3-value_argument.js; ./3-value_argument.js
