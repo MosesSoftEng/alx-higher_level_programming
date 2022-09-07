@@ -38,4 +38,11 @@ Write a class Rectangle that defines a rectangle.
 
 `chmod +x tests/3-main.js; ./tests/3-main.js;`
 
-## 
+## 4. Rectangle #4
+Write a class Rectangle that defines a rectangle.
+
+`chmod +x 4-rectangle.js; semistandard ./4-rectangle.js; ./4-rectangle.js`
+
+`semistandard --fix 4-rectangle.js`
+
+`chmod +x tests/4-main.js; ./tests/4-main.js;`
