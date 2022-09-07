@@ -9,11 +9,7 @@ module.exports = class Rectangle {
   }
 
   print () {
-    for (let i = 0; i < this.height; i++) {
-      let line = '';
-      for (let c = 0; c < this.width; c++) line += 'X';
-      console.log(line);
-    }
+    for (let i = 0; i < this.height; i++) console.log('X'.repeat(this.width));
   }
 
   rotate () {
