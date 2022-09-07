@@ -77,3 +77,21 @@ Write a function that returns the number of occurrences in a list.
 ## 8. Esrever
 Write a function that returns the reversed version of a list.
 
+`chmod +x 8-esrever.js; semistandard ./8-esrever.js; ./8-esrever.
+
+js`
+
+`semistandard --fix 8-esrever.js`
+
+`chmod +x tests/8-main.js; ./tests/8-main.js;`
+
+## 9. Log me
+Write a function that prints the number of arguments already printed and the new argument value. 
+
+`chmod +x 9-logme.js; semistandard ./9-logme.js; ./9-logme.js`
+
+`semistandard --fix 9-logme.js`
+
+`chmod +x tests/9-main.js; ./tests/9-main.js;`
+
+## 
