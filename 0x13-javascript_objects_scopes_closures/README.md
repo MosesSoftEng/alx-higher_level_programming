@@ -96,3 +96,12 @@ Write a function that prints the number of arguments already printed and the new
 
 ## 10. Number conversion
 Write a function that converts a number from base 10 to another base passed as argument
+
+`chmod +x 10-converter.js; semistandard ./10-converter.js; ./10-converter.js`
+
+`semistandard --fix 10-converter.js`
+
+`chmod +x tests/10-main.js; ./tests/10-main.js;`
+
+## 11. Factor index
+Write a script that imports an array and computes a new array.
