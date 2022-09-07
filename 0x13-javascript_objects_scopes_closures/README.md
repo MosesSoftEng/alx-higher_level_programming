@@ -67,3 +67,13 @@ Write a class Square that defines a square and inherits from Square of 5-square.
 
 ## 7. Occurrences
 Write a function that returns the number of occurrences in a list.
+
+`chmod +x 7-occurrences.js; semistandard ./7-occurrences.js; ./7-occurrences.js`
+
+`semistandard --fix 7-occurrences.js`
+
+`chmod +x tests/7-main.js; ./tests/7-main.js;`
+
+## 8. Esrever
+Write a function that returns the reversed version of a list.
+
