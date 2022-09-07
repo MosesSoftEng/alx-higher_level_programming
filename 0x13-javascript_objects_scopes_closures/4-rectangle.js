@@ -9,7 +9,11 @@ module.exports = class Rectangle {
   }
 
   print () {
-    for (let i = 0; i < this.height; i++) console.log('X'.repeat(this.width));
+    for (let i = 0; i < this.height; i++) {
+      let line = '';
+      for (let c = 0; c < this.width; c++) line += 'X';
+      console.log(line);
+    }
   }
 
   rotate () {
@@ -19,7 +23,6 @@ module.exports = class Rectangle {
   }
 
   double () {
-    this.width = this.width * 2;
-    this.height = this.height * 2;
+    [this.width, this.height] = [this.width * 2, this.height * 2];
   }
 };
