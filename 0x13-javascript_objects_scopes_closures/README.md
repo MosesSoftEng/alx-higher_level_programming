@@ -58,3 +58,12 @@ Write a class Square that defines a square and inherits from Rectangle of 4-rect
 
 ## 6. Square #1
 Write a class Square that defines a square and inherits from Square of 5-square.js
+
+`chmod +x 6-square.js; semistandard ./6-square.js; ./6-square.js`
+
+`semistandard --fix 6-square.js`
+
+`chmod +x tests/6-main.js; ./tests/6-main.js;`
+
+## 7. Occurrences
+Write a function that returns the number of occurrences in a list.
