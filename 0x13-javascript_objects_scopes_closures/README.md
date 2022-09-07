@@ -22,3 +22,20 @@ Write a class Rectangle that defines a rectangle.
 
 ## 2. Rectangle #2
 Write a class Rectangle that defines a rectangle:
+
+`chmod +x 2-rectangle.js; semistandard ./2-rectangle.js; ./2-rectangle.js;`
+
+`semistandard --fix 2-rectangle.js`
+
+`chmod +x tests/2-main.js; ./tests/2-main.js;`
+
+## 3. Rectangle #3
+Write a class Rectangle that defines a rectangle.
+
+`chmod +x 3-rectangle.js; semistandard ./3-rectangle.js; ./3-rectangle.js`
+
+`semistandard --fix 3-rectangle.js`
+
+`chmod +x tests/3-main.js; ./tests/3-main.js;`
+
+## 
