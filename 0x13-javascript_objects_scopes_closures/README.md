@@ -18,3 +18,7 @@ Write a class Rectangle that defines a rectangle.
 `semistandard --fix 1-rectangle.js`
 
 `chmod +x tests/1-main.js; ./tests/1-main.js;`
+
+
+## 2. Rectangle #2
+Write a class Rectangle that defines a rectangle:
