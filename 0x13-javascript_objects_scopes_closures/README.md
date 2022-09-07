@@ -47,4 +47,6 @@ Write a class Rectangle that defines a rectangle.
 
 `chmod +x tests/4-main.js; ./tests/4-main.js;`
 
-## 
+## 5. Square #0
+Write a class Square that defines a square and inherits from Rectangle of 4-rectangle.js:
+
