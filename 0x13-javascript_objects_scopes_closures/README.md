@@ -105,3 +105,9 @@ Write a function that converts a number from base 10 to another base passed as a
 
 ## 11. Factor index
 Write a script that imports an array and computes a new array.
+
+chmod +x 13-add.js; semistandard ./13-add.js; ./13-add.js
+
+semistandard --fix 13-add.js
+
+
