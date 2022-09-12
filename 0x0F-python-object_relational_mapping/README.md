@@ -28,6 +28,17 @@ Write a script that lists all cities from the database hbtn_0e_4_usa.
 
 cat tests/4-cities_by_state.sql | sudo mysql -uroot -p
 
+pycodestyle 4-cities_by_state.py; chmod +x 4-cities_by_state.py; sudo ./4-cities_by_state.py root root hbtn_0e_4_usa
+
+## 5. All cities by state
+Write a script that takes in the name of a state as an argument and lists all cities of that state, using the database hbtn_0e_4_usa. Results must be sorted in ascending order by cities.id
+
+pycodestyle 5-filter_cities.py; chmod +x 5-filter_cities.py; sudo ./5-filter_cities.py root root hbtn_0e_4_usa Texas
+
+## 
+
+
+
 
 
 

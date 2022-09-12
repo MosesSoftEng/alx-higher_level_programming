@@ -2,8 +2,8 @@
 """Lists all cities of the database hbtn_0e_4_usa, sorted in ascending and
 order by cities.id.
 
-Usage: ./4-cities_by_state.py <mysql username> \
-                              <mysql password> \
+Usage: ./4-cities_by_state.py <mysql username>
+                              <mysql password>
                               <database name>
 """
 import MySQLdb
