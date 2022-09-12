@@ -16,5 +16,11 @@ pycodestyle 1-filter_states.py; chmod +x 1-filter_states.py; sudo ./1-filter_sta
 ## 2. Filter states by user input
 Write a script that takes in an argument and displays all values in the states table of hbtn_0e_0_usa where name matches the argument.
 
+pycodestyle 2-my_filter_states.py; chmod +x 2-my_filter_states.py; sudo ./2-my_filter_states.py root root hbtn_0e_0_usa 'Arizona'
+
+## 3. SQL Injection
+Write a script that takes in arguments and displays all values in the states table of hbtn_0e_0_usa where name matches the argument. But this time, write one that is safe from MySQL injections!
+
+
 
 
