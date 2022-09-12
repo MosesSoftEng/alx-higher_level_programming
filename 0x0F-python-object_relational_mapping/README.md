@@ -35,7 +35,11 @@ Write a script that takes in the name of a state as an argument and lists all ci
 
 pycodestyle 5-filter_cities.py; chmod +x 5-filter_cities.py; sudo ./5-filter_cities.py root root hbtn_0e_4_usa Texas
 
-## 
+## 6. First state model
+Write a python file that contains the class definition of a State and an instance Base = declarative_base():
+
+cat tests/6-model_state.sql | sudo mysql -uroot -p
+sudo ./6-model_state.py root root hbtn_0e_6_usa
 
 
 
