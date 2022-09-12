@@ -14,7 +14,7 @@ import sys
 
 # Check if we are running this script at top level.
 if __name__ == "__main__":
-    state = sys.argv[4]
+    state_search = sys.argv[4]
     state_found = False
 
     engine = create_engine("mysql+mysqldb://{}:{}@localhost/{}"
@@ -25,10 +25,10 @@ if __name__ == "__main__":
     session = Session()
 
     for state in session.query(State):
-        if state.name == state:
-            print("{}".format(state.id))
+        if state.name is state:
             state_found = True
+            print("{}".format(state.id))
             break
 
-    if state_found is False:
-        print("Not found")
+    # if state_found is False:
+    #     print("Not found")
