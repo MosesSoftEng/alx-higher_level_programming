@@ -58,6 +58,13 @@ pycodestyle 8-model_state_fetch_first.py; chmod +x 8-model_state_fetch_first.py;
 ## 9. Contains `a`
 Write a script that lists all State objects that contain the letter a from the database hbtn_0e_6_usa.
 
+pycodestyle 9-model_state_filter_a.py; chmod +x 9-model_state_filter_a.py; sudo ./9-model_state_filter_a.py root root hbtn_0e_0_usa 'Arizona'
+
+## 10. Get a state
+Write a script that prints the State object with the name passed as argument from the database hbtn_0e_6_usa.
+
+pycodestyle 10-model_state_my_get.py; chmod +x 10-model_state_my_get.py; sudo ./10-model_state_my_get.py root root hbtn_0e_0_usa 'Arizona'
+
 
 
 
