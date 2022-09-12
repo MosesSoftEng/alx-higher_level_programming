@@ -48,7 +48,10 @@ Write a script that lists all State objects from the database hbtn_0e_6_usa usin
 
 cat tests/7-model_state_fetch_all.sql | sudo mysql -uroot -p hbtn_0e_6_usa
 
+pycodestyle 7-model_state_fetch_all.py; chmod +x 7-model_state_fetch_all.py; sudo ./7-model_state_fetch_all.py root root hbtn_0e_0_usa 'Arizona'
 
+## 8. First state
+Write a script that prints the first State object from the database hbtn_0e_6_usa. 
 
 
 
