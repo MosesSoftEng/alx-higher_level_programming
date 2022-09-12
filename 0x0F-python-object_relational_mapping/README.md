@@ -66,6 +66,12 @@ Write a script that prints the State object with the name passed as argument fro
 pycodestyle 10-model_state_my_get.py; chmod +x 10-model_state_my_get.py; sudo ./10-model_state_my_get.py root root hbtn_0e_0_usa 'Arizona'
 
 
+## 11. Add a new state
+Write a script that adds the State object “Louisiana” to the database hbtn_0e_6_usa
+
+pycodestyle 11-model_state_insert.py; chmod +x 11-model_state_insert.py; sudo ./11-model_state_insert.py root root hbtn_0e_0_usa 'Arizona'
+
+
 
 
 
