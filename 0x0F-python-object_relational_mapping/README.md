@@ -21,6 +21,13 @@ pycodestyle 2-my_filter_states.py; chmod +x 2-my_filter_states.py; sudo ./2-my_f
 ## 3. SQL Injection
 Write a script that takes in arguments and displays all values in the states table of hbtn_0e_0_usa where name matches the argument. But this time, write one that is safe from MySQL injections!
 
+pycodestyle 3-my_safe_filter_states.py; chmod +x 3-my_safe_filter_states.py; sudo ./3-my_safe_filter_states.py root root hbtn_0e_0_usa 'Arizona'
+
+## 4. Cities by states
+Write a script that lists all cities from the database hbtn_0e_4_usa.
+
+cat tests/4-cities_by_state.sql | sudo mysql -uroot -p
+
 
 
 
