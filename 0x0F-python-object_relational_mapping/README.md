@@ -53,6 +53,14 @@ pycodestyle 7-model_state_fetch_all.py; chmod +x 7-model_state_fetch_all.py; sud
 ## 8. First state
 Write a script that prints the first State object from the database hbtn_0e_6_usa. 
 
+pycodestyle 8-model_state_fetch_first.py; chmod +x 8-model_state_fetch_first.py; sudo ./8-model_state_fetch_first.py root root hbtn_0e_0_usa 'Arizona'
+
+## 9. Contains `a`
+Write a script that lists all State objects that contain the letter a from the database hbtn_0e_6_usa.
+
+
+
+
 
 
 
