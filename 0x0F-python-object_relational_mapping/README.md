@@ -71,6 +71,10 @@ Write a script that adds the State object “Louisiana” to the database hbtn_0
 
 pycodestyle 11-model_state_insert.py; chmod +x 11-model_state_insert.py; sudo ./11-model_state_insert.py root root hbtn_0e_0_usa 'Arizona'
 
+## 12. Update a state
+Write a script that changes the name of a State object from the database hbtn_0e_6_usa.
+
+
 
 
 
