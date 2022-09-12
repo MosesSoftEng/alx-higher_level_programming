@@ -74,12 +74,10 @@ pycodestyle 11-model_state_insert.py; chmod +x 11-model_state_insert.py; sudo ./
 ## 12. Update a state
 Write a script that changes the name of a State object from the database hbtn_0e_6_usa.
 
+pycodestyle 12-model_state_update_id_2.py; chmod +x 12-model_state_update_id_2.py; sudo ./12-model_state_update_id_2.py root root hbtn_0e_6_usa 'Arizona'
 
-
-
-
-
-
+## 13. Delete states
+Write a script that deletes all State objects with a name containing the letter a from the database hbtn_0e_6_usa.
 
 
 
