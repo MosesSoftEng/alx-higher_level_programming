@@ -41,6 +41,19 @@ Write a python file that contains the class definition of a State and an instanc
 cat tests/6-model_state.sql | sudo mysql -uroot -p
 sudo ./6-model_state.py root root hbtn_0e_6_usa
 
+pycodestyle model_state.py; chmod +x model_state.py; sudo ./model_state.py root root hbtn_0e_6_usa
+
+## 7. All states via SQLAlchemy
+Write a script that lists all State objects from the database hbtn_0e_6_usa using SQLAlchemy.
+
+cat tests/7-model_state_fetch_all.sql | sudo mysql -uroot -p hbtn_0e_6_usa
+
+
+
+
+
+
+
 
 
 
