@@ -1,4 +1,3 @@
 #!/bin/bash
-# Script to send a DELETE request to a URL then display the http response message body.
-curl -s -X POST "$1"
- 
+# Send POST request with given variables to a given URL.
+curl -s -X POST -d "email=test@gmail.com&subject=I will always be here for PLD" "$1"
