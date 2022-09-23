@@ -9,7 +9,7 @@ import requests
 
 # Evaluate if running this script directly, will not work if imported.
 if __name__ == "__main__":
-    url = " https://api.github.com/user"
+    url = "https://api.github.com/user"
     access_token = sys.argv[2]
 
     headers = {
