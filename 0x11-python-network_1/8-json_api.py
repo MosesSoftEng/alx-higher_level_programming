@@ -17,11 +17,10 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         letter = sys.argv[1]
 
-    values = {'q': letter}
-
-    response = requests.post(url, data=values)
+    response = requests.post(url, data={'q': letter})
     try:
-        data = r.json()
+        data = response.json()
+
         if data == {}:
             print("No result")
         else:
