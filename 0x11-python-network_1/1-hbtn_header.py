@@ -3,6 +3,7 @@
 import sys
 import urllib.request
 
+
 # Evaluate if running this script directly, will not work if imported.
 if __name__ == "__main__":
     # Get first command argument
