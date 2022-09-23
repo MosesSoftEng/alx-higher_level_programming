@@ -17,7 +17,11 @@ if __name__ == "__main__":
     url = "https://api.github.com/repos/{}/{}/commits".format(repo_owner,
                                                               repo_name)
 
-    headers = {"per_page": "10"}
+    response = requests.get(url)
 
-    response = requests.get(url, headers=headers)
-    print(response.json())
+    commits = response.json()
+
+    for i in range(10):
+        print("{}: {}".format(
+            commits[i].get("sha"),
+            commits[i].get("commit").get("author").get("name")))
