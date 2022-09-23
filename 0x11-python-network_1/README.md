@@ -90,7 +90,14 @@ Write a Python script that takes your GitHub credentials (username and password)
 ```bash
 pycodestyle 10-my_github.py
 chmod +x 10-my_github.py
-./10-my_github.py moses_soft_eng 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
+./10-my_github.py moses_soft_eng <GitHub access token>
 ```
 
+## 10. Time for an interview!
+Please list 10 commits (from the most recent to oldest) of the repository “rails” by the user “rails”
 
+```bash
+pycodestyle 100-github_commits.py
+chmod +x 100-github_commits.py
+./100-github_commits.py rails rails
+```
