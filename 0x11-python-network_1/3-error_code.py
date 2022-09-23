@@ -15,6 +15,7 @@ if __name__ == "__main__":
             # Get response headers
             body = response.read()
 
+            # Decode in utf-8 and print
             print(body.decode('utf-8'))
     except urllib.error.HTTPError as e:
         print("Error code: {}".format(e.code))
