@@ -10,17 +10,17 @@ const url = process.argv[2];
 
 // Send get request
 request(url, function (error, response, body) {
-    const films = JSON.parse(body).results;
-    let character_movie_count = 0;
+  const films = JSON.parse(body).results;
+  let characterMovieCount = 0;
 
-    if (!error) {
-        for (let i = 0; i < films.length; i++) {
-            const film = films[i];
+  if (!error) {
+    for (let i = 0; i < films.length; i++) {
+      const film = films[i];
 
-            if(film.characters.includes('https://swapi-api.hbtn.io/api/people/18/')){
-                character_movie_count++;
-            }
-        }
+      if (film.characters.includes('https://swapi-api.hbtn.io/api/people/18/')) {
+        characterMovieCount++;
+      }
     }
-    console.log(character_movie_count);
+  }
+  console.log(characterMovieCount);
 });
