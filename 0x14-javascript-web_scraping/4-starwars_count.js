@@ -18,11 +18,12 @@ request(url, function (error, response, body) {
     for (let i = 0; i < films.length; i++) {
       const film = films[i];
 
-        for (let j = 0; j < film.characters.length; j++) {
-            if(film.characters[j].endsWith('/18/')) {
-                characterMovieCount++;
-            }         
+      for (let j = 0; j < film.characters.length; j++) {
+        if (film.characters[j].endsWith('/18/')) {
+          characterMovieCount++;
+          break;
         }
+      }
     }
   }
   console.log(characterMovieCount);
