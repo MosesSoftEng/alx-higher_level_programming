@@ -18,9 +18,11 @@ request(url, function (error, response, body) {
     for (let i = 0; i < films.length; i++) {
       const film = films[i];
 
+      // Loop films characters
       for (let j = 0; j < film.characters.length; j++) {
         if (film.characters[j].endsWith('/18/')) {
           characterMovieCount++;
+          // Check once only
           break;
         }
       }
