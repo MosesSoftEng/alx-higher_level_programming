@@ -11,15 +11,14 @@ const url = 'https://swapi-api.hbtn.io/api/films/' + movieID;
 // Send request
 request(url, function (error, response, body) {
   if (!error) {
-    const film = JSON.parse(body);
+  const film = JSON.parse(body);
 
-    film.characters.forEach(character => {
-      request(character, function (error, response, body) {
-        if (!error) {
-          console.log(JSON.parse(body).name);
-        }
-      });
+  film.characters.forEach(character => {
+    request(character, function (error, response, body) {
+    if (!error) {
+      console.log(JSON.parse(body).name);
+    }
     });
+  });
   }
-  
 });
