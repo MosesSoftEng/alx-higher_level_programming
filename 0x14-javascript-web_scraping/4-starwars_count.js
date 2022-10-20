@@ -19,7 +19,7 @@ request(url, function (error, response, body) {
       const film = films[i];
 
         for (let j = 0; j < film.characters.length; j++) {
-            if(film.characters[j].includes('/18/')) {
+            if(film.characters[j].endsWith('/18/')) {
                 characterMovieCount++;
             }         
         }
