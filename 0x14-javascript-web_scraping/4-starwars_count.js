@@ -14,12 +14,15 @@ request(url, function (error, response, body) {
   let characterMovieCount = 0;
 
   if (!error) {
+    // Loop films
     for (let i = 0; i < films.length; i++) {
       const film = films[i];
 
-      if (film.characters.includes('https://swapi-api.hbtn.io/api/people/18/')) {
-        characterMovieCount++;
-      }
+        for (let j = 0; j < film.characters.length; j++) {
+            if(film.characters[j].includes('/18/')) {
+                characterMovieCount++;
+            }         
+        }
     }
   }
   console.log(characterMovieCount);
