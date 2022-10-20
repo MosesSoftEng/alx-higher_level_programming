@@ -9,26 +9,22 @@ const url = process.argv[2];
 // Send get request
 request(url, function (error, response, body) {
   if (!error) {
-    let userTaskData = {};
+    const userTaskData = {};
 
     const todos = JSON.parse(body);
 
     // Loop each todo
     todos.forEach(todo => {
-        console.log(todo);
+      if (!todo.completed) {
+        return;
+      }
 
-        if(!todo.completed){
-            return;
-        }
-
-
-        if(userTaskData[todo.userId]) {
-            userTaskData[todo.userId] = userTaskData[todo.userId] + 1;
-        } else {
-            userTaskData[todo.userId] = 1
-        }
+      if (userTaskData[todo.userId]) {
+        userTaskData[todo.userId] = userTaskData[todo.userId] + 1;
+      } else {
+        userTaskData[todo.userId] = 1;
+      }
     });
-
 
     console.log(userTaskData);
   }
