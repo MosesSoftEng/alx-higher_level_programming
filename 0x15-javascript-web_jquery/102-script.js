@@ -10,6 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     $.ajax(settings).done(function (response) {
       $('DIV#hello').text(response.hello);
-    });    
+    }); 
   });
 });

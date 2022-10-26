@@ -8,6 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   $('DIV#clear_list').click(() => {
-    $("UL.my_list").empty();
+    $('UL.my_list').empty();
   });
 });
