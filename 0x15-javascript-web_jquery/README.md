@@ -42,10 +42,18 @@ semistandard *.js --global
 ```
 
 ## [4. Toggle classes](4-script.js)
-A JavaScript script that adds the class red to the `<header>` element when the user clicks on the tag `DIV#red_header`
+A JQuery script that adds the class red to the `<header>` element when the user clicks on the tag `DIV#red_header`
 
 ```bash
 touch 4-script.js 4-main.html
+semistandard *.js --global
+```
+
+## [5. List of elements](5-script.js)
+A JQuery script that adds  a `<li>` element to a list when the user clicks on the tag `DIV#add_item:`
+
+```bash
+touch 5-script.js 5-main.html 
 semistandard *.js --global
 ```
 
