@@ -65,6 +65,14 @@ touch 6-script.js 6-main.html
 semistandard *.js --global
 ```
 
+## [7. Star wars character](6-script.js)
+A JQuery script that updates the text of the `<header>` element to New Header!!! when the user clicks on `DIV#update_header`
+
+```bash
+touch 7-script.js 7-main.html
+semistandard *.js --global
+```
+
 # :books: References
 1. [jQuery Quick API Reference](https://oscarotero.com/jquery/)
 2. []()
