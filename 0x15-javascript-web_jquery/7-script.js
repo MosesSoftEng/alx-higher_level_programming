@@ -4,6 +4,6 @@ const settings = {
   timeout: 0
 };
 
-$.ajax(settings).done(function (response) {
+$.ajax(settings).done((response) => {
   $('DIV#character').html(response.name);
 });
