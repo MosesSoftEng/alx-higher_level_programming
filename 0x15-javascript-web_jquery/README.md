@@ -17,13 +17,19 @@ touch 0-script.js 0-main.html
 semistandard *.js --global
 ```
 
-# :computer: Tasks
 ## [1. With JQuery](1-script.js)
-A JavaScript script that updates the text color of the `<header>` element to red (`#FF0000`):
-
+A JQuery script that updates the text color of the `<header>` element to red (`#FF0000`):
 
 ```bash
-touch 1-script.js 2-main.html
+touch 1-script.js 1-main.html
+semistandard *.js --global
+```
+
+## [2. Click and turn red](2-script.js)
+A JavaScript script that updates the text color of the `<header>` element to red (`#FF0000`) when the user clicks on the tag DIV#red_header
+
+```bash
+touch 2-script.js 2-main.html
 semistandard *.js --global
 ```
 
