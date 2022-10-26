@@ -89,6 +89,15 @@ touch 9-script.js 9-main.html
 semistandard *.js --global
 ```
 
+## [10. No jQuery - document loaded](100-script.js)
+A JQuery script that updates the text color of the <header> element to red (#FF0000):
+
+```bash
+touch 100-script.js 100-main.html
+semistandard *.js --global
+```
+
+
 
 # :books: References
 1. [jQuery Quick API Reference](https://oscarotero.com/jquery/)
