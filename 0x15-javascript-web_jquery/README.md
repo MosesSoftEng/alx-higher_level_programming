@@ -10,13 +10,26 @@ touch 0x15-javascript-web_jquery/README.md
 
 # :computer: Tasks
 ## [0. No JQuery](0-script.js)
+A JavaScript script that updates the text color of the `<header>` element to red (`#FF0000`):
 
 ```bash
 touch 0-script.js 0-main.html
+semistandard *.js --global
+```
+
+# :computer: Tasks
+## [1. With JQuery](1-script.js)
+A JavaScript script that updates the text color of the `<header>` element to red (`#FF0000`):
+
+
+```bash
+touch 1-script.js 2-main.html
+semistandard *.js --global
 ```
 
 # :books: References
 1. [jQuery Quick API Reference](https://oscarotero.com/jquery/)
+2. []()
 
 
 # :man: Author and Credits.
