@@ -57,6 +57,14 @@ touch 5-script.js 5-main.html
 semistandard *.js --global
 ```
 
+## [6. Change the text](6-script.js)
+A JQuery script that updates the text of the `<header>` element to New Header!!! when the user clicks on `DIV#update_header`
+
+```bash
+touch 6-script.js 6-main.html
+semistandard *.js --global
+```
+
 # :books: References
 1. [jQuery Quick API Reference](https://oscarotero.com/jquery/)
 2. []()
