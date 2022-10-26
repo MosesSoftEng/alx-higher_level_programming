@@ -105,7 +105,13 @@ touch 101-script.js 101-main.html
 semistandard *.js --global
 ```
 
+## [12. Say hello to everybody!](102-script.js)
+A JQuery script that fetches and prints how to say “Hello” depending on the language.
 
+```bash
+touch 102-script.js 102-main.html
+semistandard *.js --global
+```
 
 
 # :books: References
