@@ -73,11 +73,19 @@ touch 7-script.js 7-main.html
 semistandard *.js --global
 ```
 
-## [8. Star Wars movies ](6-script.js)
+## [8. Star Wars movies](6-script.js)
 A JQuery script that updates the text of the `<header>` element to New Header!!! when the user clicks on `DIV#update_header`
 
 ```bash
 touch 8-script.js 8-main.html
+semistandard *.js --global
+```
+
+## [9. Say Hello! ](9-script.js)
+A JQuery script that updates the text of the `<header>` element to New Header!!! when the user clicks on `DIV#update_header`
+
+```bash
+touch 9-script.js 9-main.html
 semistandard *.js --global
 ```
 
