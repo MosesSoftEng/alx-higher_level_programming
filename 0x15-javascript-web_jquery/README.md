@@ -33,11 +33,19 @@ touch 2-script.js 2-main.html
 semistandard *.js --global
 ```
 
-## [Add `.red` class ](3-script.js)
+## [Add `.red` class](3-script.js)
 A JavaScript script that adds the class red to the `<header>` element when the user clicks on the tag `DIV#red_header`
 
 ```bash
 touch 3-script.js 3-main.html
+semistandard *.js --global
+```
+
+## [4. Toggle classes](4-script.js)
+A JavaScript script that adds the class red to the `<header>` element when the user clicks on the tag `DIV#red_header`
+
+```bash
+touch 4-script.js 4-main.html
 semistandard *.js --global
 ```
 
