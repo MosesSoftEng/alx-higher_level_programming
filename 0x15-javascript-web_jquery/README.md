@@ -97,6 +97,15 @@ touch 100-script.js 100-main.html
 semistandard *.js --global
 ```
 
+## [11. List, add, remove](101-script.js)
+A JQuery script that adds, removes and clears LI elements from a list when the user cliicks div items.
+
+```bash
+touch 101-script.js 101-main.html
+semistandard *.js --global
+```
+
+
 
 
 # :books: References
